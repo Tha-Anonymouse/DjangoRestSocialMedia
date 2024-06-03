@@ -1,6 +1,3 @@
-README.md
-markdown
-Copy code
 # Social Network API
 
 This project is a social networking application built with Django Rest Framework.
