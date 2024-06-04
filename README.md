@@ -32,12 +32,12 @@ cd social-network-api
 ### 2. Set Up Environment Variables
 Create a .env file in the root directory of the project and add the necessary environment variables. Below is an example:
 ```
-POSTGRES_DB=social_network
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-DB_NAME=social_network
-DB_USERNAME=postgres
-DB_PASSWORD=postgres
+POSTGRES_DB=<<db_name>>
+POSTGRES_USER=<<db_username>>
+POSTGRES_PASSWORD=<<db_password>>
+DB_NAME=<<db_name>>
+DB_USERNAME=<<db_username>>
+DB_PASSWORD=<<sb_password>>
 DB_HOST=db
 DB_PORT=5432
 ```
