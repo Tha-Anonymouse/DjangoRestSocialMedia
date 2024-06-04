@@ -32,10 +32,12 @@ cd social-network-api
 ### 2. Set Up Environment Variables
 Create a .env file in the root directory of the project and add the necessary environment variables. Below is an example:
 ```
-DJANGO_SECRET_KEY=your_secret_key
-DB_NAME=your_db_name
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
+POSTGRES_DB=social_network
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+DB_NAME=social_network
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
 DB_HOST=db
 DB_PORT=5432
 ```
