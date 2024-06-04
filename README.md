@@ -35,9 +35,6 @@ Create a .env file in the root directory of the project and add the necessary en
 POSTGRES_DB=<<db_name>>
 POSTGRES_USER=<<db_username>>
 POSTGRES_PASSWORD=<<db_password>>
-DB_NAME=<<db_name>>
-DB_USERNAME=<<db_username>>
-DB_PASSWORD=<<sb_password>>
 DB_HOST=db
 DB_PORT=5432
 ```
@@ -52,7 +49,7 @@ docker-compose build
 Start the containers using Docker Compose:
 
 ```bash
-docker-compose up -d
+docker-compose up
 ```
 
 ### 5. Accessing the APIs
