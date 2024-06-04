@@ -115,6 +115,7 @@ To facilitate testing and evaluation of the API endpoints, a Postman collection 
 ### Importing the Postman Collection
 * Download the Postman collection file: postman_collection.json
 * Open Postman.
-* Click on the Import button in the top-left corner.
+* Click on the Import button in the top-left corner. (File->Import) or Ctrl + O
 * Select the downloaded JSON file and import it.
 * The collection named "Social Network API" should now be available in your Postman application, containing all the endpoints configured with the necessary request details.
+* Note that due to issue with Postman, the imported request URLs tend to have their trailing slashes silently removed, which may need to be added back, before requesting.
